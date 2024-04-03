@@ -20,8 +20,7 @@ public class TeslaSalesApplication {
 		System.out.println("2017 -> " + StreamService.findTotalYearlySales(modelX, "17"));
 		System.out.println("2018 -> " + StreamService.findTotalYearlySales(modelX, "18"));
 		System.out.println("2019 -> " + StreamService.findTotalYearlySales(modelX, "19") + "\n");
-		System.out.println("The best month for Model X was: " + StreamService.findBestMonth(modelX));
-		System.out.println("The worst month for Model X was: " + StreamService.findWorstMonth(modelX));
+		StreamService.findBestandWorstMonth(modelX, "ModelX");
 		
 			  
 		
@@ -32,8 +31,7 @@ public class TeslaSalesApplication {
 		System.out.println("2017 -> " + StreamService.findTotalYearlySales(modelS, "17"));
 		System.out.println("2018 -> " + StreamService.findTotalYearlySales(modelS, "18"));
 		System.out.println("2019 -> " + StreamService.findTotalYearlySales(modelS, "19") + "\n");
-		System.out.println("The best month for Model S was: " + StreamService.findBestMonth(modelS));
-		System.out.println("The worst month for Model S was: " + StreamService.findWorstMonth(modelS));
+		StreamService.findBestandWorstMonth(modelS, "ModelS");
 
 		
 		
@@ -43,8 +41,7 @@ public class TeslaSalesApplication {
 		System.out.println("2017 -> " + StreamService.findTotalYearlySales(model3, "17"));
 		System.out.println("2018 -> " + StreamService.findTotalYearlySales(model3, "18"));
 		System.out.println("2019 -> " + StreamService.findTotalYearlySales(model3, "19") + "\n");
-		System.out.println("The best month for Model 3 was: " + StreamService.findBestMonth(model3));
-		System.out.println("The worst month for Model 3 was: " + StreamService.findWorstMonth(model3));	  
+		StreamService.findBestandWorstMonth(model3, "Model3");
 		
 		
 		
